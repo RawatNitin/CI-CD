@@ -16,6 +16,6 @@ describe("Add task form", () => {
     fireEvent.click(submitBtn);
     // Submit button should be called
     expect(handleSubmit).toHaveBeenCalled();
-    expect(input.value).toBe("sd");
+    expect(input.value).toBe("");
   });
 });
